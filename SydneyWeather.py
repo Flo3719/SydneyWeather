@@ -53,9 +53,8 @@ summarytexts = [item.get_text() for item in summaryitems]
 Forecast = []
 for i in range(0, 7):
 	Forecast.append({
-		"DayMaxTemp": maxtemptexts[i],
 		"DayName": WeekdaysArranged[i],
-		
+		"DayMaxTemp": maxtemptexts[i],
 		"DaySummary": summarytexts[i]
 	})	
 
